@@ -1,0 +1,35 @@
+#buttondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#ipbox{
+   height: 50px; 
+   width: 200px;
+   padding: 10px;
+   margin: 10px;
+}
+
+#note_title{
+    margin: 10px;
+}
+
+#title_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#note_title_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ipdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
