@@ -3,7 +3,5 @@ function save_notes(){
     const title = document.getElementById("note_title").value
     const note = document.getElementById("ipbox").value
 
-    console.log(title)
-    console.log("sth is wrng")
-    console.log(note)
+    
 } 
