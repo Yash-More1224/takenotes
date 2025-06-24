@@ -12,3 +12,9 @@ async function save_notes(){
     const response = await res.json() // returns a "response" obj that provided json data as body
     console.log(response.message)
 }
+
+async function get_notes() {
+    const res = await fetch("http://127.0.0.1:8000/get-notes")
+    const response = res.json();
+    document.getElementById("output").textContent = JSON.stringify(response, null, 2)
+}

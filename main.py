@@ -30,6 +30,6 @@ async def save_notes(data: resModel):
     return {"message": "note saved sucessfully!"}
 
 @app.get("/get-notes")
-async def fetch_notes():
-    all_notes = db.users.find()
+async def get_notes():
+    all_notes = db.collection.find()
     return {all_notes}

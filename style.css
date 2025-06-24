@@ -16,6 +16,12 @@
     margin: 10px;
 }
 
+#get_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #title_div{
     display: flex;
     align-items: center;
